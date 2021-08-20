@@ -1,3 +1,8 @@
+package com.javaedge.concurrency.example;
+
+import java.util.concurrent.TimeUnit;
+import java.util.concurrent.locks.LockSupport;
+
 public class LockSupportBlockerTest {
     public static void main(String[] args) {
         Thread t3 = new Thread(() -> {    

@@ -1,3 +1,8 @@
+package com.javaedge.concurrency.example.aqs;
+
+import java.util.concurrent.TimeUnit;
+import java.util.concurrent.locks.AbstractQueuedSynchronizer;
+
 public class SimpleLock {
     private static class Sync extends AbstractQueuedSynchronizer {
         @Override
